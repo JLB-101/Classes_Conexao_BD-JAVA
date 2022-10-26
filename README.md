@@ -1,2 +1,2 @@
-# Classes_Conexao_BD
-# Repositorio de Classes de Conexao, ajuda rapida para nossos pojectos 
+# Classes Conexão com BD(data base)
+Repositorio de Classes de Conexão, ajuda rapida para nossos pojectos 

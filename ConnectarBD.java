@@ -9,7 +9,8 @@ import java.sql.SQLDataException;
 
 public class ConnectarBD {
 	
-	private static Connection con;
+    private static Connection con;
+    /*getConnection method || metodo pegarconexao*/
     public static Connection  getConnection() throws Exception {
         Class.forName("org.postgresql.Driver");
         String url = "jdbc:postgresql://localhost:5432/nameBD";
@@ -24,6 +25,7 @@ public class ConnectarBD {
         return con;
     }//end  getConnection
     
+    /*TESTANDO-testing*/
     public static void main(String[] args) throws Exception {
         //Testando Conexão|| Testing Connection
         System.out.println(getConnection()); 
